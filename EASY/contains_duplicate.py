@@ -48,8 +48,11 @@ class Solution:
 
 if __name__ == '__main__':
     sol = Solution()
-    nums = [1,2,3,4]
+    nums = [1,2,3,4,1]
     print(sol.containsDuplicate(nums))
+
+    nums2 = [1,2,3,4]
+    print(sol.containsDuplicate(nums2))
 
 """
 --- TECHNICAL ANALYSIS ---
